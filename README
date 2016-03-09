@@ -1,0 +1,14 @@
+Minesweeper
+-----------
+
+The files in this directory can be run in 2 ways:
+1. Run minesweeper -- give it your own parameters on board size and number of mines and it will give you the results of whehter it solved it or not
+2. Run the solver -- this creates 100,000 minesweeper random boards of a 10x10 size with 10 mines each and solves them.
+
+To run minesweeper
+------------------
+javac minesweeper/Minesweeper.java && java minesweeper/Minesweeper
+
+To run solver
+-------------
+javac minesweeper/Solver.java && java minesweeper/Solver
